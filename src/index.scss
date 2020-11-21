@@ -23,7 +23,8 @@ code {
 .header {
   background-color: #F0F6F4;
   display: flex;
-  width: 76.5rem;
+  justify-content: center;
+  width: 100%;
   margin-top: -1rem;
   // margin: 0 auto;
   position: fixed;
@@ -56,8 +57,16 @@ code {
 }
 
 .home-page {
-  display: flex;
   margin-top: 5rem;
+}
+
+.second-page {
+  justify-content: center;
+}
+
+.home-div {
+  display: flex;
+  justify-content: center;
 }
 
 .info-home {
@@ -471,6 +480,7 @@ input[type="radio"], input[type="checkbox"] {
   background-size: cover;
 }
 
+// .btn-sign {}
 
 
 

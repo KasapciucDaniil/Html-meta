@@ -5,7 +5,7 @@ export const Footer = () => {
   return (
     <div className="main-footer">
        <div>
-          <div style={{display: 'flex', marginTop: '-6rem', marginLeft: '31.5rem'}}>
+          <div style={{display: 'flex', marginTop: '-6rem', justifyContent: 'center'}}>
              <div>
                <a href="https://www.facebook.com/simpleat.me/">
                 <img 
@@ -47,7 +47,7 @@ export const Footer = () => {
                <p style={{color: '#FFFFFF', fontSize: '13px', marginTop: '1rem', fontWeight: '300', marginLeft: '-0.5rem'}}>LEGAL</p>
               </div> 
           </div>
-          <p style={{color: '#FFFFFF', fontSize: '13px', marginLeft: '35.4rem', fontWeight: '300'}}>© 2018, Simpleat</p>
+          <p style={{color: '#FFFFFF', fontSize: '13px', fontWeight: '300'}}>© 2018, Simpleat</p>
        </div>
 
       <div className="last-footer" style={{display: 'flex'}}>

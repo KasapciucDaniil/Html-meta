@@ -10,8 +10,8 @@ export const Join = () => {
         Click on the Title to learm more</p>
 
         <Form inline>
-         <FormControl style={{marginLeft: '22rem'}} type="text" placeholder="Your e-mail" className="mr-sm-2" />
-         <Button variant="success">SIGN UP</Button>
+         <FormControl style={{margin: '0 auto'}} type="text" placeholder="Your e-mail" className="mr-sm-2" />
+         <Button variant="success" className="btn-sign">SIGN UP</Button>
        </Form>
     </div>
   )

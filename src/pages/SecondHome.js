@@ -4,10 +4,10 @@ import { Button } from 'react-bootstrap'
 export const SecondHome = () => {
   return (
     <div className="second-page">
-      <h1 style={{textAlign: 'center', fontWeight: '400', marginTop: '4rem', marginLeft: '1rem'}} className="main-title">WHY SIMPLEAT?</h1>
-      <p style={{color: '#777', textAlign: 'center', marginTop: '1.5rem', marginLeft: '1rem'}}>Enjoy all the benefits of Simpleat</p>
+      <h1 style={{textAlign: 'center', fontWeight: '400', marginTop: '4rem', marginLeft: '4rem'}} className="main-title">WHY SIMPLEAT?</h1>
+      <p style={{color: '#777', textAlign: 'center', marginTop: '1.5rem', marginLeft: '3.5rem'}}>Enjoy all the benefits of Simpleat</p>
 
-     <div style={{display: 'flex', marginLeft: '-1.3rem'}}>
+     <div style={{display: 'flex', justifyContent: 'center'}}>
         <div>
           <div className="block-1">
            <img 
@@ -106,7 +106,7 @@ export const SecondHome = () => {
 
       </div>
 
-      <Button variant="success">Order Simpleat</Button> 
+      <Button variant="success" style={{marginLeft: '50rem'}}>Order Simpleat</Button> 
     </div>
   )
 }

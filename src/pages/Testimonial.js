@@ -3,7 +3,7 @@ import React from 'react'
 export const Testimonial = () => {
   return (
     <div style={{marginTop: '2rem'}} className="testimonial-page">
-      <h1 style={{fontWeight: '400', textAlign: 'center'}}>Testimonial</h1>
+      <h1 style={{fontWeight: '400', textAlign: 'center', marginLeft: '1.5rem'}}>Testimonial</h1>
 
       <p style={{textAlign: 'center', fontSize: '15px', marginTop: '2rem'}}>Simpleat is made to provide the perfectly balanced diet with every nutrient your body needs for optimal health.</p>
 

@@ -6,7 +6,7 @@ export const Ingredients = () => {
       <h1 style={{textAlign: 'center', fontWeight: '400', marginTop: '4rem', marginLeft: '1rem'}} className="main-title">MAIN INGREDIENTS</h1>
       <p style={{color: '#777', textAlign: 'center', marginTop: '1.5rem', marginLeft: '1rem'}}>What is inside Simpleat?</p>
 
-     <div style={{display: 'flex', marginLeft: '-0.3rem'}}>
+     <div style={{display: 'flex', justifyContent: 'center', marginRight: '5rem'}}>
         <div>
          <img 
             src="../Ingredient1.png" 

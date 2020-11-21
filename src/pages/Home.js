@@ -13,12 +13,13 @@ export const Home = () => {
 
     return(
        <div className="home-page" >
+         <div className="home-div">
           <img 
            src="../home1.png" 
            alt="logo"
            height={280}
            width={260}
-           style={{marginTop: '3rem', marginLeft: '7rem'}} 
+           style={{marginTop: '3rem'}} 
          /> 
          <div className="info-home">
            <h1 style={{fontWeight: '400'}}>MORE THAN FOOD</h1>
@@ -80,14 +81,15 @@ export const Home = () => {
             Это помогает обеспечивать качество услуг, накапливать статистику использования, а также выявлять и устранять нарушения!</p>
             <Modal.Footer>
 
-              <Button variant="success" 
+               <Button variant="success" 
                  onClick={handleClose}
                  style={{marginTop: '0.5rem'}}
-              >
-                OK!
-             </Button>
-           </Modal.Footer>
-        </Modal>
+               >
+                 OK!
+              </Button>
+            </Modal.Footer>
+          </Modal>
+        </div>
        </div> 
     )
 }

@@ -9,7 +9,7 @@ export const Header = () => (
            alt="logo"
            height={20}
            width={20}
-           style={{marginTop: '1.4rem', marginLeft: '12rem'}} 
+           style={{marginTop: '1.4rem', marginLeft: '7rem'}} 
          />
          <p style={{marginTop: '1.2rem', marginLeft: '0.2rem', fontSize: '16px', color: '#121920'}}>Cat</p>
          <p style={{marginTop: '1.2rem', marginLeft: '1rem', fontSize: '16px', color: '#121920'}}>Contact</p>
