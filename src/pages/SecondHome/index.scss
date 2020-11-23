@@ -1,0 +1,101 @@
+.second-page {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.main-title {
+  text-align: center;
+  font-weight: 400;
+  margin-top: 4rem;
+  margin-left: 3.5rem;
+}
+
+.main-txt {
+  color: #777;
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-left: 3.4rem;
+}
+
+.components {
+  display: flex;
+  margin: auto;
+  margin-left: 3rem;
+}
+
+.block-1 {
+  background-image: url(https://wwfeu.awsassets.panda.org/img/forest4_612251.png);
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  background-size: cover;
+  margin-top: 3rem;
+  margin-left: 7rem;
+}
+
+.block-2 {
+  background-image: url(https://images.pexels.com/photos/1295138/pexels-photo-1295138.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  background-size: cover;
+  margin-top: 3rem;
+  margin-left: 7rem;
+}
+
+.block-3 {
+  background-image: url(https://images.pexels.com/photos/1459534/pexels-photo-1459534.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  background-size: cover;
+  margin-top: 3rem;
+  margin-left: 7rem;
+}
+
+.block-4 {
+  background-image: url(https://images.pexels.com/photos/39691/family-pier-man-woman-39691.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  background-size: cover;
+  margin-top: 3rem;
+  margin-left: 7rem;
+}
+
+.block-5 {
+  background-image: url(https://images.pexels.com/photos/577514/pexels-photo-577514.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  background-size: cover;
+  margin-top: 3rem;
+  margin-left: 7rem;
+}
+
+.block-6 {
+  background-image: url(https://images.pexels.com/photos/3186654/pexels-photo-3186654.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  background-size: cover;
+  margin-top: 3rem;
+  margin-left: 7rem;
+}
+
+.title-component {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.txt-component {
+  color: #777;
+  width: 180px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.component-position {
+  margin-left: -3rem;
+}

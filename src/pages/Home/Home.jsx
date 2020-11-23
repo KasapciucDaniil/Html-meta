@@ -1,6 +1,8 @@
 import React, {useEffect, useState} from 'react'
 import { Form, Button, Modal } from 'react-bootstrap'
 
+import './index.scss'
+
 export const Home = () => {
   const [show, setShow] = useState(false)
 
@@ -24,11 +26,11 @@ export const Home = () => {
          <div className="info-home">
            <h1 style={{fontWeight: '400'}}>MORE THAN FOOD</h1>
 
-           <p style={{width: '460px', textAlign: 'center', marginLeft: '-3.5rem', marginTop: '2.5rem'}}>Everything your body needs is one bottle of Simpleat.Drink Simpleat and forget about hunger.Be the first to try nutrition designed for your needs.</p>
+           <p className="text-home">Everything your body needs is one bottle of Simpleat.Drink Simpleat and forget about hunger.Be the first to try nutrition designed for your needs.</p>
            
            <h5 style={{marginLeft: '1rem'}}>Free shipping for orders over €90</h5>
 
-           <Form.Control style={{marginLeft: '-2rem', marginTop: '2rem'}} as="select">
+           <Form.Control className="home-control" as="select">
              <option>12 bottles</option>
                <option>24 bottles</option>
                 <option>36 bottles</option>
@@ -42,10 +44,10 @@ export const Home = () => {
            </Form.Control>
 
 
-         <div style={{display: 'flex'}}>
-         <div style={{display: 'flex', marginTop: '1rem', marginLeft: '-2rem'}}>
+         <div className="div-checkbox">
+         <div className="position-chekbox">
            <Form.Check type="checkbox"/> 
-           <div style={{marginLeft: '1rem'}}>
+           <div className="checkBox-1">
             <p style={{color: '#36C1BA'}}>One-Time</p>
             <p style={{color: '#999', marginTop: '-1rem'}}>Purchase</p>
            </div>
@@ -53,15 +55,15 @@ export const Home = () => {
 
           <div style={{display: 'flex', marginTop: '1rem', marginLeft: '7rem'}}>
            <Form.Check type="checkbox"/> 
-           <div style={{marginLeft: '1rem'}}>
+           <div className="checkBox-2">
             <p style={{color: 'black'}}>Subscribe</p>
             <p style={{color: '#999', marginTop: '-1rem'}}>and save 5%</p>
            </div>
           </div>
          </div>
 
-         <div style={{display: 'flex', marginTop: '2rem'}}>
-           <div style={{marginLeft: '-2rem'}}>
+         <div className="last-addit">
+           <div className="last-div">
             <p style={{fontWeight: '400'}}><strong>€32</strong></p>
             <p style={{marginTop: '-1rem', color: '#555'}}>€2.60 per meal (400 kcal)</p>
            </div>

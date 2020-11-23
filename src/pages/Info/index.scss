@@ -1,0 +1,36 @@
+.info-page {
+  height: 450px;
+  background-color: #36C1BA;
+  width: 65rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+  padding-top: 2rem;
+}
+
+.info-value {
+  display: flex;
+}
+
+.info-1 {
+  margin-top: 5rem;
+  margin-left: 7rem;
+}
+
+.coffe-v {
+  background-image: url(https://images.pexels.com/photos/3230010/pexels-photo-3230010.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  width: 450px;
+  height: 250px;
+  cursor: pointer;
+  background-position: center;
+  border-radius: 14px;
+  background-size: cover;
+  margin-top: 6rem;
+  margin-left: 4rem;
+}
+
+.video {
+  height: 200px;
+  width: 400px;
+  margin-top: 2rem;
+  margin-left: 3rem;
+}

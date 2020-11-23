@@ -1,5 +1,7 @@
 import React from 'react'
 
+import './index.scss'
+
 export const Nutritional = () => {
   return (
     <div style={{marginTop: '2rem'}} className="nutritional-page">

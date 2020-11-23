@@ -1,0 +1,21 @@
+.join-border {
+  height: 230px;
+  background-color: white;
+}
+
+.join-page {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.title {
+  font-weight: 300;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.txt {
+  margin-top: 2.5rem;
+  color: #777;
+}

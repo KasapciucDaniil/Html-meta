@@ -1,6 +1,8 @@
 import React, {useState} from 'react'
 import { Button, Modal } from 'react-bootstrap'
 
+import './index.scss'
+
 export const Info = () => {
   const [show, setShow] = useState(false)
 
@@ -8,10 +10,9 @@ export const Info = () => {
   const handleShow = () => setShow(true)
 
   return (
-    <div style={{marginTop: '2rem'}} className="info-page">
-      <div style={{display: 'flex'}}>
-         <div style={{marginTop: '5rem', marginLeft: '7rem'}}>
-           {/* <Button variant="primary" onClick={handleShow}>Открыть</Button> */}
+    <div className="info-page">
+      <div className="info-value">
+         <div className="info-1">
            <h2 style={{color: 'white', fontWeight: '300'}}>WHAT IS SIMPLEAT ?</h2>
           
            <p style={{textAlign: 'center', color: 'white', width: '357px', marginTop: '2rem', marginLeft: '-2.7rem'}}>
@@ -48,7 +49,7 @@ export const Info = () => {
                 frameBorder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
-                style={{height: '200px', width: '400px', marginTop: '2rem', marginLeft: '3rem'}}
+                className="video"
               />  
          </section>
             <Modal.Footer>

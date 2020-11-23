@@ -1,9 +1,11 @@
 import React from 'react'
 import {Nav, NavDropdown, Button} from 'react-bootstrap'
 
+import './index.scss'
+
 export const Simpleat = () => {
   return (
-    <div style={{marginTop: '10rem'}} className="simpleat-page">
+    <div className="simpleat-page">
       <h1 style={{fontWeight: '400', textAlign: 'center'}}>SIMPLEAT — SUPER FOOD</h1>
 
       <p style={{color: '#777', height: '131px', width: '230px', textAlign: 'center',  marginLeft: '25rem', marginTop: '4rem'}}>Nutritional Profile.<br />
