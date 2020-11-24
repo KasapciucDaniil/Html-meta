@@ -1,27 +1,30 @@
-.second-page {
+.second-home {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-}
 
-.main-title {
-  text-align: center;
-  font-weight: 400;
-  margin-top: 4rem;
-  margin-left: 3.5rem;
-}
+  &__title {
+    text-align: center;
+    font-weight: 400;
+    margin-top: 4rem;
+    margin-left: 3.5rem;
+  }
 
-.main-txt {
-  color: #777;
-  text-align: center;
-  margin-top: 1.5rem;
-  margin-left: 3.4rem;
-}
+  &__text {
+    color: #777;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-left: 3.4rem;
+  }
 
-.components {
-  display: flex;
-  margin: auto;
-  margin-left: 3rem;
+  .second-home__wrapper {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+  }
+
 }
 
 .block-1 {

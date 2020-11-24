@@ -5,12 +5,12 @@ import './index.scss'
 
 export const SecondHome = () => {
   return (
-    <div className="second-page">
-      <h1 className="main-title">WHY SIMPLEAT?</h1>
-      <p className="main-txt">Enjoy all the benefits of Simpleat</p>
+    <div className="second-home">
+      <h1 className="second-home__title">WHY SIMPLEAT?</h1>
+      <p className="second-home__text">Enjoy all the benefits of Simpleat</p>
 
-     <div className="components">
-        <div>
+     <div className="second-home__wrapper">
+        <div className="component">
           <div className="block-1">
            <img 
              src="../logo1.png" 

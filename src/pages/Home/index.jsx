@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react'
 import { Form, Button, Modal } from 'react-bootstrap'
 
-import './index.scss'
+import './style.scss'
 
 export const Home = () => {
   const [show, setShow] = useState(false)

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Header } from './Components/Header'
-import { Home } from './pages/Home/Home'
+import { Home } from './pages/Home'
 import { Info } from './pages/Info/Info'
 import { SecondHome } from './pages/SecondHome/SecondHome'
 import { Footer } from './Components/Footer'
