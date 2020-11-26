@@ -18,6 +18,22 @@
     font-weight: 400;
   }
 
+  &__options {
+    width: 100%;
+    max-width: 1170px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 3.5rem;
+
+    .simpleat-btn {
+      margin: 0;
+      width: 145px;
+      height: 47px;
+    }
+  }
+
+
   &__text {
     color: #777;
     width: 230px;
@@ -26,10 +42,6 @@
     margin-left: 26rem;
     margin-top: 3rem;
   }
-
-  // &__btn {
-  //   position: relative;
-  // }
 
   .simpleat__navbar {
     width: 50rem;

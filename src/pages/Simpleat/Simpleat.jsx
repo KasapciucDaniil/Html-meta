@@ -110,7 +110,10 @@ export const Simpleat = () => {
           </ul>
         </div>
       </div>
-      <Button variant="success" className="simpleat__btn">Order now</Button>
+
+      <div className="simpleat__options">
+        <Button variant="success" className="simpleat-btn">Order now</Button>
+      </div>
       </div>
     </div>
   )
