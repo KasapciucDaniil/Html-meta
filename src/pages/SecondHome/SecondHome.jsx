@@ -106,7 +106,9 @@ export const SecondHome = () => {
           </p>
        </div>
       </div>
-      <Button className="btn" variant="success">Order Simpleat</Button> 
+      <div className="second-home__options">
+        <Button className="btn" variant="success">Order Simpleat</Button> 
+      </div>
     </div>
   )
 }

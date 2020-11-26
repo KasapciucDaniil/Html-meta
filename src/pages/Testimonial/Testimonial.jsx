@@ -17,7 +17,7 @@ export const Testimonial = () => {
              alt="logo"
              height={33}
              width={33}
-             className="img"
+             className="img-player"
            />
            <div className="card-value">
             <strong className="title-card">Anna,27 • Manager</strong>
@@ -31,7 +31,7 @@ export const Testimonial = () => {
              alt="logo"
              height={33}
              width={33}
-             className="img"
+             className="img-player"
            />
            <div className="card-value">
             <strong className="title-card">Chester,33 • Manager</strong>
@@ -45,7 +45,7 @@ export const Testimonial = () => {
              alt="logo"
              height={33}
              width={33}
-             className="img"
+             className="img-player"
            />
            <div className="card-value">
             <strong className="title-card">Noah,25 • Manager</strong>
@@ -59,7 +59,7 @@ export const Testimonial = () => {
              alt="logo"
              height={33}
              width={33}
-             className="img"
+             className="img-player"
            />
            <div className="card-value">
             <strong className="title-card">Victor,23 • Manager</strong>

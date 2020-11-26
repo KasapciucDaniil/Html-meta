@@ -1,0 +1,75 @@
+.nutritional {
+  background-color: #F0F6F4;
+  height: 650px;
+  width: 65rem;
+  margin: 0 auto;
+  padding-top: 2rem;
+  margin-top: 2rem;
+
+  &__title {
+    text-align: center;
+    font-weight: 400;
+  }
+
+  &__image {
+    margin-left: 1rem;
+    margin-top: 7rem;
+    height: 217px;
+    width: 180px;
+  }
+
+  &__imageLeft {
+    margin-left: 1rem;
+    margin-top: 5rem;
+    height: 277px;
+    width: 70px;
+  }
+
+  &__imageRight {
+    margin-left: 1rem;
+    margin-top: 5rem;
+    height: 277px;
+    width: 70px;
+  }
+
+  .nutritional-text-left {
+    color: #777;
+    font-size: 14px;
+    text-align: right;
+  }
+
+  .nutritional-text-right {
+    color: #777;
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .nutritional-main {
+    display: flex;
+    margin-left: -1.3rem; 
+  }
+
+  .nutritional-left {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+
+    .nutritional-left-components {
+      display: flex;
+      margin-top: 2rem;
+      margin-left: 8rem;
+   } 
+  }
+
+  .nutritional-right {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+
+    .nutritional-right-components {
+      display: flex;
+      margin-top: 2rem;
+      margin-left: 1rem;
+   } 
+  }
+}

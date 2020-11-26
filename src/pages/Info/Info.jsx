@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import { Button, Modal } from 'react-bootstrap'
 
-import './index.scss'
+import './style.scss'
 
 export const Info = () => {
   const [show, setShow] = useState(false)

@@ -1,0 +1,65 @@
+.footer-border {
+  height: 200px;
+  background-color: #192632;
+  margin-top: 7rem;
+  padding-top: 8.8rem;
+}
+
+.footer__first {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  margin-top: -7rem;
+
+  .footer-block1 {
+    display: flex;
+  }
+}
+
+.line {
+  margin-left: 2rem;
+  border-left: 1px solid #F0F6F4;
+  height: 30px;
+  margin-top: 3.3rem;
+}
+
+.contact-links {
+  margin-left: 2rem;
+}
+
+.img__txt {
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 13px;
+}
+
+.last-footer {
+  background-color: #121920;
+  height: 73px;
+  display: flex;
+  margin-top: 2rem;
+}
+
+.select-footer{
+  background-image: url(https://images.pexels.com/photos/3230010/pexels-photo-3230010.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  width: 20px;
+  height: 20px;
+  background-position: center;
+  border-radius: 14px;
+  background-size: cover;
+}
+
+.custom-control-label::before, .custom-file-label, .custom-select {
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  width: 191px;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Flag_of_the_United_Kingdom.svg/500px-Flag_of_the_United_Kingdom.svg.png);
+  background-position: right;
+  background-size: contain;
+  background-origin: content-box;
+  height: 41px;
+  background-color: #333; 
+  color: white;
+  margin-left: 23rem;
+  margin-top: 1.1rem;
+}

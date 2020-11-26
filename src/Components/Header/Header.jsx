@@ -1,20 +1,20 @@
 import React from 'react'
 import { Button } from 'react-bootstrap'
 
+import './style.scss'
+
 export const Header = () => (
-    <div className="header">
-      <div style={{display: 'flex'}}>
+    <div className="header-border">
+      <div className="header">
          <img 
            src="../header1.png" 
            alt="logo"
-           height={20}
-           width={20}
-           style={{marginTop: '1.4rem', marginLeft: '7rem'}} 
+           className="header__img"
          />
-         <p style={{marginTop: '1.2rem', marginLeft: '0.2rem', fontSize: '16px', color: '#121920'}}>Cat</p>
-         <p style={{marginTop: '1.2rem', marginLeft: '1rem', fontSize: '16px', color: '#121920'}}>Contact</p>
+         <p className="header__txt" style={{marginLeft: '0.2rem'}}>Cat</p>
+         <p className="header__txt" style={{marginLeft: '1rem'}}>Contact</p>
       </div> 
-      <div className="header-logo">
+      <div className="header__logo">
       <img 
            src="../header2.png" 
            alt="logo"
@@ -23,7 +23,7 @@ export const Header = () => (
            style={{marginTop: '1rem', marginLeft: '7.5rem'}} 
          />
       </div> 
-      <div className="header-sign" style={{display: 'flex'}}>
+      <div className="header-sign">
       <img 
            src="../header3.png" 
            alt="logo"
@@ -31,7 +31,7 @@ export const Header = () => (
            width={14}
            style={{marginTop: '1.5rem', marginLeft: '13rem'}} 
          />
-         <p style={{marginTop: '1.3rem', marginLeft: '0.2rem', fontSize: '15px', color: '#121920'}}>Sign in</p>
+         <p className="header__txt" style={{marginLeft: '0.2rem'}}>Sign in</p>
          <Button style={{marginTop: '0.7rem', marginLeft: '3rem'}} className="btn-header" variant="success">Order now</Button>
       </div>
     </div>

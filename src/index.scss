@@ -20,28 +20,10 @@ code {
   padding-top: 1rem;
 }
 
-.header {
-  background-color: #F0F6F4;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  margin-top: -1rem;
-  position: fixed;
-}
-
 .header-title {
   color: gray;
   margin-left: 1rem;
   cursor: pointer;
-}
-
-.header-title:hover {
-  color: white;
-}
-
-.header-logo {
-  margin-left: 10rem;
-  margin-bottom: 0.5rem;
 }
 
 .btn-header {
@@ -49,42 +31,11 @@ code {
   height: 44;
 }
 
-.btn:not(:disabled):not(.disabled) {
-  cursor: pointer;
-  width: 131px;
-  height: 44px;
-}
-
-.nutritional-page {
-  background-color: #F0F6F4;
-  height: 650px;
-  width: 65rem;
-  margin: 0 auto;
-  padding-top: 2rem;
-}
-
-.simpleat-page {
-  background-color: #F0F6F4;
-  height: 1000px;
-  width: 65rem;
-  margin: 0 auto;
-  padding-top: 2rem;
-  margin-top: 7rem;
-}
-
 input[type="radio"], input[type="checkbox"] {
   box-sizing: border-box;
   padding: 0;
   width: 40px;
   height: 40px;
-}
-
-.btn:not(:disabled):not(.disabled) {
-  cursor: pointer;
-  width: 145px;
-  height: 47px;
-  margin-left: 34rem;
-  margin-top: 2rem;
 }
 
 .home-title {
@@ -185,13 +136,6 @@ input[type="radio"], input[type="checkbox"] {
   cursor: pointer;
 }
 
-.main-footer {
-  height: 200px;
-  background-color: #192632;
-  margin-top: 7rem;
-  padding-top: 8.8rem;
-}
-
 .info-div {
   margin-left: 10rem;
   padding-top: 3.5rem;
@@ -210,13 +154,6 @@ input[type="radio"], input[type="checkbox"] {
 .contact-div {
   margin-left: 2rem;
   padding-top: 3.5rem;
-}
-
-.last-footer {
-  background-color: #121920;
-  height: 73px;
-  display: flex;
-  margin-top: 2rem;
 }
 
 .social-div {
@@ -260,14 +197,6 @@ input[type="radio"], input[type="checkbox"] {
   border-color: #dee2e6 #dee2e6 #fff;
 }
 
-.block-card {
-  height: 460px;
-  width: 900px;
-  background-color: white;
-  margin-top: 1rem;
-  margin-left: 4.3rem;
-}
-
 .footer-li {
   color: #36C1BA;
   font-size: 13.5px;
@@ -294,30 +223,8 @@ input[type="radio"], input[type="checkbox"] {
   list-style-type: none;
 }
 
-.custom-control-label::before, .custom-file-label, .custom-select {
-  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  width: 191px;
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Flag_of_the_United_Kingdom.svg/500px-Flag_of_the_United_Kingdom.svg.png);
-  background-position: right;
-  background-size: contain;
-  background-origin: content-box;
-  height: 41px;
-  background-color: #333; 
-  color: white;
-  margin-left: 23rem;
-  margin-top: 1.1rem;
+.footer-img-contact {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
 }
-
-.select-footer{
-  background-image: url(https://images.pexels.com/photos/3230010/pexels-photo-3230010.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
-  width: 20px;
-  height: 20px;
-  background-position: center;
-  border-radius: 14px;
-  background-size: cover;
-}
-
-// .btn-sign {}
-
-
-
