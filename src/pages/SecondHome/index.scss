@@ -14,6 +14,7 @@
       margin: 0;
       width: 145px;
       height: 47px;
+      margin-left: 2rem;
     }
   }
 
@@ -21,22 +22,38 @@
     text-align: center;
     font-weight: 400;
     margin-top: 4rem;
-    margin-left: 3.5rem;
+    margin-left: 3.3rem;
   }
 
   &__text {
     color: #777;
     text-align: center;
     margin-top: 1.5rem;
-    margin-left: 3.4rem;
+    margin-left: 2.8rem;
   }
 
   .second-home__wrapper {
     max-width: 1170px;
     width: 100%;
+    padding: 0 10px;
     margin: 0 auto;
     display: flex;
     justify-content: flex-end;
+
+    @media screen and (max-width: 1100px) {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+      column-gap: 15px;
+      row-gap: 1px;
+    }
+
+    @media screen and (max-width: 850px) {
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    }
+
+    @media screen and (max-width: 550px) {
+      grid-template-columns: minmax(0, 1fr);
+    }
   }
 
 }
